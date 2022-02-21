@@ -54,7 +54,7 @@ __2) Написать скрипт который выполнит автома�
 `chmod +x script_1.sh`  
 `vim script_1.sh`  
 ->i 
-```
+```bash
 echo ""  
 echo "===================================================="  
 echo "I will create a general folder with 3 folders inside"  
