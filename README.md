@@ -62,7 +62,7 @@ echo "3 .txt and 2 .json files in the first folder"
 echo "Then I will create 3 folders inside the first one"  
 echo "and move 2 .txt files into the first of them"  
 echo "===================================================="  
-echo""  
+echo ""  
 
 mkdir git_bash_gr27  
 cd git_bash_gr27  
