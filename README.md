@@ -64,7 +64,6 @@ echo "Then I will create 3 folders inside the first one"
 echo "and move 2 .txt files into the first of them"  
 echo "===================================================="  
 echo ""  
-
 mkdir git_bash_gr27  
 cd git_bash_gr27  
 mkdir folder_1 folder_2 folder_3  
