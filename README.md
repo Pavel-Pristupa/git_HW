@@ -50,30 +50,30 @@ http://162.55.220.72:5005/terminal-hw-request
 	`curl 'http://162.55.220.72:5005/get_method?name=(Pavel_Pristupa)&age=(32)'`  
 __2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13.__   
 	*// Я добавил в скрипт пункт 2. +Небольшое описание происходящего.*  
-		```  
+	```  
 	touch script_1.sh  
 	chmod +x script_1.sh  
 	vim script_1.sh  
 	```
 	->i 
-		```  
-		echo ""  
-		echo "===================================================="  
-		echo "I will create a general folder with 3 folders inside"  
-		echo "3 .txt and 2 .json files in the first folder"  
-		echo "Then I will create 3 folders inside the first one"  
-		echo "and move 2 .txt files into the first of them"  
-		echo "===================================================="  
-		echo""  
-  
-		mkdir git_bash_gr27  
-		cd git_bash_gr27  
-		mkdir folder_1 folder_2 folder_3  
-		cd folder_1  
-		touch file_1.txt file_2.txt file_3.txt json_1.json json_2.json  
-		mkdir ff_1 ff_2 ff_3  
-		ls -la  
-		mv -i ./{file_1.txt,file_2.txt} ./ff_1/  
-		```  
+	```  
+	echo ""  
+	echo "===================================================="  
+	echo "I will create a general folder with 3 folders inside"  
+	echo "3 .txt and 2 .json files in the first folder"  
+	echo "Then I will create 3 folders inside the first one"  
+	echo "and move 2 .txt files into the first of them"  
+	echo "===================================================="  
+	echo""  
+
+	mkdir git_bash_gr27  
+	cd git_bash_gr27  
+	mkdir folder_1 folder_2 folder_3  
+	cd folder_1  
+	touch file_1.txt file_2.txt file_3.txt json_1.json json_2.json  
+	mkdir ff_1 ff_2 ff_3  
+	ls -la  
+	mv -i ./{file_1.txt,file_2.txt} ./ff_1/  
+	```  
 	->Esc -> `:wq`  
 	`./script_1.sh`  
