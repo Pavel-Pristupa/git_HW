@@ -1,8 +1,10 @@
 # Linux terminal (GitBash) commands
 ____
 __1) Посмотреть где я.__  
+ 
 	`pwd`  
 __2) Создать папку.__  
+ 
 	`mkdir git_bash_HW`  
 __3) Зайти в папку.__  
 	`cd git_bash_HW`  
