@@ -50,12 +50,14 @@ http://162.55.220.72:5005/terminal-hw-request
 	`curl 'http://162.55.220.72:5005/get_method?name=(Pavel_Pristupa)&age=(32)'`  
 __2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13.__   
 	*// Я добавил в скрипт пункт 2. +Небольшое описание происходящего.*  
-	```  
-	touch script_1.sh  
-	chmod +x script_1.sh  
-	vim script_1.sh  
 	```
+	touch script_1.sh    
+	chmod +x script_1.sh    
+	vim script_1.sh    
+	```
+	
 	->i 
+	
 	```  
 	echo ""  
 	echo "===================================================="  
